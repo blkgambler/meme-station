@@ -1,0 +1,31 @@
+.multiselect.multiselect-custom .multiselect__tags {
+  @apply text-mineshaft-100;
+  background: #F5F6F6;
+  border-radius: 0;
+  border: none;
+}
+
+.multiselect.multiselect-custom .multiselect__input {
+  @apply text-mineshaft-100;
+  background: #F5F6F6;
+}
+.multiselect.multiselect-custom.white .multiselect__tags {
+  background: #fff;
+  border: 1px solid #F5F6F6;
+}
+
+.multiselect.multiselect-custom.white .multiselect__input {
+  background: #fff;
+}
+
+.multiselect.multiselect-custom .multiselect__placeholder {
+  @apply text-mineshaft-100;
+  padding-left: 5px;
+}
+.multiselect.multiselect-custom .multiselect__select:before {
+  color: #333;
+  border-color: #333 transparent transparent;
+}
+.multiselect.multiselect-custom .multiselect__single {
+  background: none;
+}
